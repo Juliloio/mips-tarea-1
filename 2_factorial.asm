@@ -21,7 +21,7 @@ main:
 
 exit:
 li  $v0, 1
-move $a0, t0 
+move $a0, $t0 
 syscall
 li  $v0, 10
 syscall
